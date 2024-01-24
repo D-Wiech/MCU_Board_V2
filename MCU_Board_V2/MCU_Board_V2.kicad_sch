@@ -1,0 +1,1918 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 96c8bd85-653e-4164-8e77-7550b1d5d045)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0.762 0.508 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "R_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Small_0_1"
+        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "SamacSys_Parts:AP62200WU-7" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+      (property "Reference" "IC" (at 21.59 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "AP62200WU-7" (at 21.59 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "SOT95P280X100-6N" (at 21.59 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8773719cd56c9c8fb48ffd720a0376ce.pdf" (at 21.59 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K" (at 21.59 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Height" "1" (at 21.59 -5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Part Number" "621-AP62200WU-7" (at 21.59 -7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP62200WU-7?qs=P1JMDcb91o6Lrrt3Idazjw%3D%3D" (at 21.59 -10.16 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Name" "Diodes Inc." (at 21.59 -12.7 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Part_Number" "AP62200WU-7" (at 21.59 -15.24 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "AP62200WU-7_0_0"
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "SW" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 0) (length 5.08)
+          (name "VIN" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 25.4 -5.08 180) (length 5.08)
+          (name "FB" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 25.4 -2.54 180) (length 5.08)
+          (name "EN" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 25.4 0 180) (length 5.08)
+          (name "BST" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "AP62200WU-7_0_1"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 20.32 2.54)
+            (xy 20.32 -7.62)
+            (xy 5.08 -7.62)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "SamacSys_Parts:SRP3212A-3R3M" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at 16.51 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "SRP3212A-3R3M" (at 16.51 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "INDC3225X120N" (at 16.51 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf" (at 16.51 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd" (at 16.51 -3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Height" "1.2" (at 16.51 -6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Part Number" "" (at 16.51 -8.89 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Mouser Price/Stock" "" (at 16.51 -11.43 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Name" "Bourns" (at 16.51 -13.97 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Manufacturer_Part_Number" "SRP3212A-3R3M" (at 16.51 -16.51 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SRP3212A-3R3M_0_0"
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 20.32 0 180) (length 5.08)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "SRP3212A-3R3M_0_1"
+        (arc (start 7.62 0) (mid 6.35 1.2202) (end 5.08 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 10.16 0) (mid 8.89 1.2202) (end 7.62 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 12.7 0) (mid 11.43 1.2202) (end 10.16 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+        (arc (start 15.24 0) (mid 13.97 1.2202) (end 12.7 0)
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 106.68 177.8) (diameter 0) (color 0 0 0 0)
+    (uuid 4b3bed4b-2bbe-4f0b-9109-cb95e60efbcf)
+  )
+  (junction (at 97.79 177.8) (diameter 0) (color 0 0 0 0)
+    (uuid 68152912-efee-4486-959f-bfc84c94e13e)
+  )
+  (junction (at 29.21 148.59) (diameter 0) (color 0 0 0 0)
+    (uuid 686bba94-5d53-4745-a617-6238133e9dbc)
+  )
+  (junction (at 106.68 163.83) (diameter 0) (color 0 0 0 0)
+    (uuid 766695ee-7ad0-49a1-8b9c-0944d6f4d93d)
+  )
+  (junction (at 73.66 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid 81eb14fd-9e50-405c-8cd8-ef0fa24ffd2b)
+  )
+  (junction (at 276.86 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid cd5851d9-b8ea-4184-a10f-6152f083a00a)
+  )
+  (junction (at 67.31 163.83) (diameter 0) (color 0 0 0 0)
+    (uuid d30f699c-2b82-49b4-abf5-e4d4d4ea086d)
+  )
+  (junction (at 73.66 143.51) (diameter 0) (color 0 0 0 0)
+    (uuid d46fdb21-be71-4a0a-a49b-f8815ff7d1a8)
+  )
+  (junction (at 266.7 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid dd1252a4-cdff-4869-b88d-473d01ed12d6)
+  )
+  (junction (at 73.66 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid df6a365a-1061-4fe7-99c3-22ab3292f5e9)
+  )
+  (junction (at 91.44 163.83) (diameter 0) (color 0 0 0 0)
+    (uuid ecc5bd0b-01ff-430c-825a-4f305bce93da)
+  )
+  (junction (at 113.03 163.83) (diameter 0) (color 0 0 0 0)
+    (uuid f61f4ca4-513c-4f61-af5b-c12af4e1af27)
+  )
+
+  (no_connect (at 38.1 163.83) (uuid ee479723-e4e0-4e10-814a-0322a3fe2881))
+
+  (wire (pts (xy 29.21 148.59) (xy 38.1 148.59))
+    (stroke (width 0) (type default))
+    (uuid 010b09c7-3a65-42ef-945e-328afefb7a7e)
+  )
+  (wire (pts (xy 63.5 163.83) (xy 67.31 163.83))
+    (stroke (width 0) (type default))
+    (uuid 15317edf-9a03-4752-863f-00b0b7d5a199)
+  )
+  (wire (pts (xy 73.66 143.51) (xy 88.9 143.51))
+    (stroke (width 0) (type default))
+    (uuid 1dfab210-2852-4381-b4c8-df3f0c3c1e9f)
+  )
+  (wire (pts (xy 45.72 177.8) (xy 38.1 177.8))
+    (stroke (width 0) (type default))
+    (uuid 1fa4b65e-bcaa-4620-88f5-c81a3935096c)
+  )
+  (wire (pts (xy 91.44 163.83) (xy 106.68 163.83))
+    (stroke (width 0) (type default))
+    (uuid 35d163a7-e8e6-4eb3-b343-7e6236f6117f)
+  )
+  (polyline (pts (xy 12.7 128.27) (xy 12.7 129.54))
+    (stroke (width 0) (type default))
+    (uuid 35ec1ef7-0b93-4c84-9fab-97b659c5f6f8)
+  )
+  (polyline (pts (xy 134.62 128.27) (xy 134.62 196.85))
+    (stroke (width 0) (type default))
+    (uuid 3870d3c0-0da7-458c-89b5-372ce072a07b)
+  )
+
+  (wire (pts (xy 63.5 166.37) (xy 63.5 167.64))
+    (stroke (width 0) (type default))
+    (uuid 40ff9238-5c9e-415f-9247-b317a03d13e7)
+  )
+  (wire (pts (xy 29.21 140.97) (xy 29.21 142.24))
+    (stroke (width 0) (type default))
+    (uuid 45b9aa3f-2e4e-4419-9d1f-c9620679113f)
+  )
+  (wire (pts (xy 276.86 153.67) (xy 276.86 156.21))
+    (stroke (width 0) (type default))
+    (uuid 5cc189ff-29be-4988-b46f-05fa840a808f)
+  )
+  (wire (pts (xy 91.44 170.18) (xy 91.44 177.8))
+    (stroke (width 0) (type default))
+    (uuid 5dc1f4c0-2161-46d6-9d82-e904b9889fac)
+  )
+  (wire (pts (xy 91.44 177.8) (xy 97.79 177.8))
+    (stroke (width 0) (type default))
+    (uuid 5dc41f0c-fe02-4e94-afa3-444f705e358f)
+  )
+  (wire (pts (xy 29.21 148.59) (xy 29.21 149.86))
+    (stroke (width 0) (type default))
+    (uuid 6067c0a2-8b73-42f1-8f38-2d8349891e19)
+  )
+  (wire (pts (xy 90.17 163.83) (xy 91.44 163.83))
+    (stroke (width 0) (type default))
+    (uuid 63483cc1-bd17-4d02-8837-ef0ddef53735)
+  )
+  (wire (pts (xy 113.03 162.56) (xy 113.03 163.83))
+    (stroke (width 0) (type default))
+    (uuid 6bc167a4-045e-4539-8cd8-3ca0da23c6f0)
+  )
+  (polyline (pts (xy 12.7 128.27) (xy 12.7 196.85))
+    (stroke (width 0) (type default))
+    (uuid 7252b3a8-92f0-4e04-9e67-5ef67135e025)
+  )
+
+  (wire (pts (xy 97.79 177.8) (xy 106.68 177.8))
+    (stroke (width 0) (type default))
+    (uuid 76e82898-4c9c-4792-be8e-24426359e7d4)
+  )
+  (wire (pts (xy 123.19 163.83) (xy 123.19 166.37))
+    (stroke (width 0) (type default))
+    (uuid 781bc114-7d85-49d5-9017-ca7c4c01f887)
+  )
+  (wire (pts (xy 88.9 143.51) (xy 88.9 144.78))
+    (stroke (width 0) (type default))
+    (uuid 7cd01959-516c-40a6-9f06-e484df6f33f5)
+  )
+  (wire (pts (xy 88.9 149.86) (xy 88.9 151.13))
+    (stroke (width 0) (type default))
+    (uuid 7d172a04-3f85-4c5d-be63-2b087b74bc84)
+  )
+  (wire (pts (xy 73.66 149.86) (xy 73.66 151.13))
+    (stroke (width 0) (type default))
+    (uuid 82323f0a-ac05-4294-83e0-42a777fdb1cc)
+  )
+  (wire (pts (xy 91.44 165.1) (xy 91.44 163.83))
+    (stroke (width 0) (type default))
+    (uuid 8afc8980-41a2-43fd-8e2e-29531186b7cd)
+  )
+  (wire (pts (xy 106.68 163.83) (xy 113.03 163.83))
+    (stroke (width 0) (type default))
+    (uuid 968cd659-c011-4016-9122-0034944630f7)
+  )
+  (wire (pts (xy 73.66 143.51) (xy 73.66 144.78))
+    (stroke (width 0) (type default))
+    (uuid 9b061807-01c5-4e3d-8777-42954d58c1dc)
+  )
+  (wire (pts (xy 113.03 163.83) (xy 123.19 163.83))
+    (stroke (width 0) (type default))
+    (uuid a419fb4e-6abe-4d45-adf4-b08a9529c38f)
+  )
+  (wire (pts (xy 106.68 177.8) (xy 123.19 177.8))
+    (stroke (width 0) (type default))
+    (uuid a48d4047-5e33-41d7-99b9-2462f035dceb)
+  )
+  (wire (pts (xy 38.1 148.59) (xy 38.1 161.29))
+    (stroke (width 0) (type default))
+    (uuid a620c91b-9efa-4d22-90f0-3690528c9669)
+  )
+  (wire (pts (xy 266.7 153.67) (xy 266.7 156.21))
+    (stroke (width 0) (type default))
+    (uuid ab160f57-c808-44ec-977c-05a43c9dc870)
+  )
+  (wire (pts (xy 67.31 163.83) (xy 69.85 163.83))
+    (stroke (width 0) (type default))
+    (uuid ab9ffd22-7596-426b-b29d-0c2edfae7b9f)
+  )
+  (wire (pts (xy 67.31 163.83) (xy 67.31 177.8))
+    (stroke (width 0) (type default))
+    (uuid abf33185-7dc0-4ade-ac90-206678cc1cb4)
+  )
+  (wire (pts (xy 106.68 170.18) (xy 106.68 163.83))
+    (stroke (width 0) (type default))
+    (uuid ac4e05e4-1368-4a03-aa9f-8f8c6490571d)
+  )
+  (polyline (pts (xy 12.7 128.27) (xy 134.62 128.27))
+    (stroke (width 0) (type default))
+    (uuid ae44070c-e264-4921-b819-7c5ac5ca3d8e)
+  )
+
+  (wire (pts (xy 266.7 156.21) (xy 276.86 156.21))
+    (stroke (width 0) (type default))
+    (uuid ba5bdf29-1aae-4d65-8ed1-049baa920d97)
+  )
+  (polyline (pts (xy 12.7 196.85) (xy 134.62 196.85))
+    (stroke (width 0) (type default))
+    (uuid baf2f2f9-3b2a-4af0-afb1-297c43df6615)
+  )
+
+  (wire (pts (xy 260.35 156.21) (xy 266.7 156.21))
+    (stroke (width 0) (type default))
+    (uuid c6a1f4f1-f64d-490b-b2e5-7c68b0fa95ba)
+  )
+  (wire (pts (xy 123.19 171.45) (xy 123.19 177.8))
+    (stroke (width 0) (type default))
+    (uuid ccaf3c82-b29b-40c7-8e3f-d0c782d9677d)
+  )
+  (wire (pts (xy 29.21 147.32) (xy 29.21 148.59))
+    (stroke (width 0) (type default))
+    (uuid cf52c005-7651-4c15-a4fb-8ba41ec9d502)
+  )
+  (wire (pts (xy 38.1 166.37) (xy 38.1 177.8))
+    (stroke (width 0) (type default))
+    (uuid cf788eb9-6976-4725-ae3d-7bf7ac792db8)
+  )
+  (wire (pts (xy 50.8 177.8) (xy 67.31 177.8))
+    (stroke (width 0) (type default))
+    (uuid d6d4ec79-9e5e-4c33-b219-55ee3607b658)
+  )
+  (wire (pts (xy 106.68 177.8) (xy 106.68 175.26))
+    (stroke (width 0) (type default))
+    (uuid d74ef180-3794-4687-99d2-a558011f64d2)
+  )
+  (wire (pts (xy 63.5 144.78) (xy 73.66 144.78))
+    (stroke (width 0) (type default))
+    (uuid eb0a9d20-e372-4e7f-9516-97bc566e2c85)
+  )
+  (wire (pts (xy 29.21 154.94) (xy 29.21 156.21))
+    (stroke (width 0) (type default))
+    (uuid ec18fbb6-c267-4067-af58-78728e6e2e46)
+  )
+  (wire (pts (xy 73.66 151.13) (xy 88.9 151.13))
+    (stroke (width 0) (type default))
+    (uuid ec9be333-343c-46c7-9c34-615f75acdb72)
+  )
+  (wire (pts (xy 63.5 161.29) (xy 63.5 144.78))
+    (stroke (width 0) (type default))
+    (uuid f80ad4e6-b83c-4753-9702-53d96d4030f3)
+  )
+
+  (text "3V3 Controller" (at 13.97 195.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 54d83789-edb8-4cc1-97bc-0efcdd361572)
+  )
+  (text "3u3 Henri" (at 76.2 166.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 829fefb2-0e28-4017-9adb-4683f45d53ed)
+  )
+  (text "Always starts up\n" (at 20.32 166.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 91c68b51-64e1-4b43-acd3-08e9f830dfb5)
+  )
+  (text "Layout following the datasheet!" (at 53.34 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b1e7b70b-44fd-4f6e-80c0-ad6753373867)
+  )
+  (text "+-1%" (at 17.78 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d0964c15-83d8-4e16-9727-77d6dc003c73)
+  )
+
+  (label "SW_3V3" (at 63.5 163.83 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2838de04-ac65-4547-9004-c36b4f8e46e6)
+  )
+  (label "BST_3V3" (at 38.1 177.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d8eabaa6-4234-45bb-9f9d-0c490a7e14e6)
+  )
+  (label "FB_3V3" (at 31.75 148.59 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ee57c4de-687b-463f-b391-e47d958c00a0)
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 29.21 140.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 00e1514f-94b8-4d6c-8c40-3a27ffdbb746)
+    (property "Reference" "#PWR026" (at 29.21 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 29.21 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 29.21 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 29.21 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95029ed8-7bd5-42fb-8295-bef9e22df345))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0100") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 73.66 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 02365804-6c5c-4c37-aa56-1988863327a4)
+    (property "Reference" "#PWR030" (at 73.66 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 73.66 156.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.66 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.66 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cdcb2611-f20e-4a3c-b06e-27c58e9a6ee9))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "#PWR041") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 123.19 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 065c6b62-ec51-4cd7-917c-1e883d2e8499)
+    (property "Reference" "C_Reset1" (at 110.49 166.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 110.49 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 123.19 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 123.19 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 21a3e455-4d51-418d-acfa-a5529caa0396))
+    (pin "2" (uuid a76d26b3-ca55-4db7-bf54-47a1da1a1dbf))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/3e745ec5-bb3b-4cb5-8d4b-39c5a6cb36fa"
+          (reference "C_Reset1") (unit 1)
+        )
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "C_Vout_3V33") (unit 1)
+        )
+      )
+      (project "USB_CAN"
+        (path "/115cadcf-6d1e-4a00-8ab8-08b313b75bc3"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+      (project "UNI_Projekt"
+        (path "/47b6b985-979a-4aca-90fe-72e515b05035/f50133f6-c877-4ddb-bafd-1223657461ba"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_Reset2") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_Reset1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 91.44 167.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0e59c72a-d1e5-4c9c-886c-f644642a5df4)
+    (property "Reference" "C_Vout_3V31" (at 93.98 166.37 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "22u 6V" (at 93.98 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 91.44 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/product-detail/_Murata-Electronics-_C415703.html" (at 91.44 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5875be2a-308d-4419-a35e-3c1cc6d339e9))
+    (pin "2" (uuid bf8413e3-1b0f-4065-9437-fb87a165423b))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "C_Vout_3V31") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "C_Vout_3V31") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_Vout_3V1") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "C_Buck_Out1") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "C_VREF4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 29.21 152.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0fd5f434-f9d6-453e-ba19-6e1526920587)
+    (property "Reference" "R_FB_3V32" (at 22.86 153.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 25.4 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 29.21 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e2e5928b-ea95-4a9c-8598-1ad6dc95d16e))
+    (pin "2" (uuid e2b5a59a-ee01-483e-b786-d407a174da8c))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "R_FB_3V32") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "R_FB_3V32") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "R_FB_3V2") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "R_BAT1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/b6c7a7f0-b34d-420b-83a5-2427791bd0dd"
+          (reference "R_BAT1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "R_Buck2") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "R_BAT10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 276.86 158.75 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 112b8714-3530-4250-b225-882eb125de5c)
+    (property "Reference" "H4" (at 279.4 159.385 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "M2" (at 279.4 161.925 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 276.86 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 276.86 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82400fc8-5a7d-4a91-b4e3-19809f9c92c2))
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 63.5 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 172c8d49-349e-4e43-bf4d-3ea0cdfb67dd)
+    (property "Reference" "#PWR028" (at 63.5 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 63.5 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 63.5 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 63.5 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9f7892e-2c77-4328-a8f5-550530552864))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 276.86 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 38ff78df-19ff-4034-87dd-2f201decf4fb)
+    (property "Reference" "H2" (at 279.4 149.225 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2" (at 279.4 151.765 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 276.86 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 276.86 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a6e704d8-ca69-45eb-98d9-0476c6bcc8b5))
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 260.35 156.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3e3d26e3-4efb-4b02-9bd7-c26c2761a1c1)
+    (property "Reference" "#PWR028" (at 260.35 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 260.35 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 260.35 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 260.35 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid be684694-dc7d-475e-b93a-df2840bdf2ce))
+    (instances
+      (project "USB_CAN"
+        (path "/115cadcf-6d1e-4a00-8ab8-08b313b75bc3"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+      (project "UNI_Projekt"
+        (path "/47b6b985-979a-4aca-90fe-72e515b05035/264d517c-b1b3-4c28-9487-8a7182e8b513"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Sensoren_Kommunikation"
+        (path "/52552614-2edc-493f-bc30-b432df03204e"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "MCU Geregelter Tiefsetzsteller"
+        (path "/5c76695a-1fd1-4668-942c-6513699f958c/b1f34d82-31f9-4434-ad16-d40177cbd9fd"
+          (reference "#PWR087") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Connector"
+        (path "/ab4b6e78-1897-431b-91e1-a4a274a31585"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/c9f26eec-57f8-4bdf-abba-71a689c924db"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+      (project "Orientation_Sensor"
+        (path "/dcf35fad-9f42-47ee-9257-8fbf8ff0a319"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/dcf35fad-9f42-47ee-9257-8fbf8ff0a319/e04988e2-0815-434c-a95f-71708d7beff8"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 29.21 156.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3ee3761b-4177-45eb-aa34-bf0b6934eff3)
+    (property "Reference" "#PWR027" (at 29.21 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 29.21 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 29.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 29.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 816f677b-5ba9-4fcb-874f-e9a8e805af5a))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 88.9 147.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 633e7a37-a0cd-408f-ab5b-e48ebbb4e99e)
+    (property "Reference" "C_LDO1" (at 91.44 146.6913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 91.44 149.2313 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 88.9 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 124bb0d2-d8e2-4986-a495-8de8cb2c5cde))
+    (pin "2" (uuid 8a7dd1e5-c4f3-40d4-afcd-0ff6b119c3a5))
+    (instances
+      (project "USB_CAN"
+        (path "/115cadcf-6d1e-4a00-8ab8-08b313b75bc3"
+          (reference "C_LDO1") (unit 1)
+        )
+      )
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d/69a92145-1f3d-4ee1-af9b-e1eefff28d3d"
+          (reference "C_LDO4") (unit 1)
+        )
+      )
+      (project "MCU_Board"
+        (path "/35e19549-01ca-4c9e-b54e-f58bbd0906d3"
+          (reference "C_LDO2") (unit 1)
+        )
+        (path "/35e19549-01ca-4c9e-b54e-f58bbd0906d3/98437a93-f65c-4833-9fc2-eb9ee0d0ed35"
+          (reference "C_MCU1") (unit 1)
+        )
+      )
+      (project "UNI_Projekt"
+        (path "/47b6b985-979a-4aca-90fe-72e515b05035/f50133f6-c877-4ddb-bafd-1223657461ba"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045/92fa5783-41bb-471d-9910-bcdf2df32395"
+          (reference "C_ADC1_IN17") (unit 1)
+        )
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_Vin_3V2") (unit 1)
+        )
+      )
+      (project "MCU"
+        (path "/9acde78c-3d96-4eaa-91e8-101562d2b1d4"
+          (reference "C_LDO1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_Reset1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_Reset1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SamacSys_Parts:SRP3212A-3R3M") (at 69.85 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 66670385-e552-455d-9b9b-da44e316772d)
+    (property "Reference" "L2" (at 80.01 158.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SRP3212A-3R3M" (at 80.01 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "SamacSys_Parts:INDC3225X120N" (at 86.36 162.56 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212.pdf" (at 86.36 165.1 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd" (at 86.36 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "1.2" (at 86.36 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "" (at 86.36 172.72 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "" (at 86.36 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "Bourns" (at 86.36 177.8 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "SRP3212A-3R3M" (at 86.36 180.34 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid b583f488-f0f1-4aac-af1a-d201907a5b35))
+    (pin "2" (uuid 0d5618db-940b-4f49-b096-95e2195af0fb))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "L1") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "L2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 78350001-6bb2-46af-8308-6c590edb8fff)
+    (property "Reference" "H1" (at 269.24 149.225 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2" (at 269.24 151.765 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 266.7 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0c949d69-9d9a-4c57-93ca-4911ac87a8b5))
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 29.21 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 78355282-e91d-43bd-b395-dbcc3ec972c7)
+    (property "Reference" "R_FB_3V31" (at 22.86 146.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "31k6" (at 25.4 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 29.21 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b7c5a28-f5bb-4a15-b931-85ffd5882d1e))
+    (pin "2" (uuid c0c64b55-79bd-4efc-b0d5-11be431d7168))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "R_FB_3V31") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "R_FB_3V31") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "R_FB_3V1") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "R_BAT1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/b6c7a7f0-b34d-420b-83a5-2427791bd0dd"
+          (reference "R_BAT1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "R_Buck1") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "R_BAT9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 73.66 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7b9b3e07-337c-4e0c-bed1-ebdeadf955bd)
+    (property "Reference" "#PWR029" (at 73.66 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 73.66 139.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.66 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.66 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 45a52f18-10e7-4407-a404-f779655ece3d))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+      (project "USB_CAN"
+        (path "/115cadcf-6d1e-4a00-8ab8-08b313b75bc3"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/91fde097-6926-40d0-9405-ec5f14503c70"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 113.03 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 89ce30e2-13dd-4197-b048-c9579e4b541b)
+    (property "Reference" "#PWR032" (at 113.03 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 113.03 158.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.03 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a9ca9d01-127e-431a-8444-7db3095ed886))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 106.68 172.72 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9c4bf5ae-3fa4-4c1f-b039-090a6f0e5944)
+    (property "Reference" "C_Vout_3V32" (at 92.71 172.72 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "22u 6V" (at 92.71 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 106.68 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/product-detail/_Murata-Electronics-_C415703.html" (at 106.68 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 90f21f22-3d86-4a29-8868-773b1a32d50e))
+    (pin "2" (uuid f4af54cd-ce9b-48a8-a4c2-080cd9c8b6d1))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "C_Vout_3V32") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "C_Vout_3V32") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_Vout_3V2") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "C_Buck_Out2") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "C_VREF5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 48.26 177.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9cf91e5e-7e11-4bc9-a4bd-814587f8df6a)
+    (property "Reference" "C_BST_3V3" (at 53.34 171.45 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100n" (at 53.34 173.99 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 48.26 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29ebd4b0-43cb-4966-b1f4-76b916fcafda))
+    (pin "2" (uuid 93f99d57-c3a9-47fe-9238-28bbe31e94b4))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "C_BST_3V3") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "C_BST_3V3") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_BST_3V1") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "C_Buck_BST1") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "C_VREF2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 158.75 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a80caf88-a5d1-46df-b393-d6665ec2ad98)
+    (property "Reference" "H3" (at 269.24 159.385 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "M2" (at 269.24 161.925 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom" (at 266.7 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12ceeb9b-6e40-43c9-97ca-57ee7a30095b))
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 73.66 147.32 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b1df29d5-bdca-4804-bffa-452eb33eae1b)
+    (property "Reference" "C_Vin_3V3" (at 76.2 146.05 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10u 25V" (at 76.2 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 73.66 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/product-detail/_Samsung-Electro-Mechanics-_C96446.html" (at 73.66 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3557ec0e-1d66-4f16-94f6-cfbbfe28aff1))
+    (pin "2" (uuid dd791e3e-7e79-4640-b6e8-3bdf87a0515a))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "C_Vin_3V3") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "C_Vin_3V3") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "C_Vin_3V1") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "C_VREF1") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/73f391cb-2df6-4363-ad10-7908352f5189"
+          (reference "C_VREF1") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "C_Buck_in1") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "C_VREF3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 97.79 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ccbd000b-67bd-4214-889a-fcb6e67cc6b5)
+    (property "Reference" "#PWR031" (at 97.79 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 97.79 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 97.79 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 97.79 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 956b8b84-63ff-4dcc-8947-25cda553484a))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "#PWR0105") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SamacSys_Parts:AP62200WU-7") (at 63.5 166.37 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cff37045-51a0-4d55-90e8-139ae64a743f)
+    (property "Reference" "IC1" (at 50.8 154.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "AP62200WU-7" (at 50.8 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "SamacSys_Parts:SOT95P280X100-6N" (at 41.91 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8773719cd56c9c8fb48ffd720a0376ce.pdf" (at 41.91 166.37 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K" (at 41.91 163.83 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "1" (at 41.91 161.29 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "621-AP62200WU-7" (at 41.91 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP62200WU-7?qs=P1JMDcb91o6Lrrt3Idazjw%3D%3D" (at 41.91 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "Diodes Inc." (at 41.91 153.67 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "AP62200WU-7" (at 41.91 151.13 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 50e07b03-1b89-4f50-b14f-1fe9800d64c0))
+    (pin "2" (uuid ee5c6d7b-785d-400e-b85d-41687d042319))
+    (pin "3" (uuid 4249fd00-a6fa-4b2d-9dc6-bf6063d3979f))
+    (pin "4" (uuid bc5e14a0-095a-40ca-b2cd-659ffaba8061))
+    (pin "5" (uuid b02ea393-d75a-498a-a426-3c9ed9e6affa))
+    (pin "6" (uuid 637238dc-f968-47cb-9978-c4d134663916))
+    (instances
+      (project "FPGA-test"
+        (path "/0b419170-8ec2-4258-82a1-0a2dc16050f3/6081b09a-0ece-4338-a91e-0883b86c29c3"
+          (reference "IC1") (unit 1)
+        )
+      )
+      (project "Spannungsversorgung_usw"
+        (path "/44762e72-62c4-48c0-a0a1-2b6163fcbe64"
+          (reference "IC3") (unit 1)
+        )
+      )
+      (project "PWR_SUPPLY"
+        (path "/4b44adb2-0e7b-443c-abf5-59eb2a1de3a4"
+          (reference "IC1") (unit 1)
+        )
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045"
+          (reference "IC3") (unit 1)
+        )
+      )
+      (project "Tiefsetzsteller"
+        (path "/a9d7fc54-bc7d-4c73-ba68-88caf4429643"
+          (reference "IC3") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "IC3") (unit 1)
+        )
+      )
+      (project "Infineon_6layer_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/6c96a7f5-3ffc-4486-8ad2-bef648e6e6d2"
+          (reference "IC2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 86.36 48.26) (size 34.29 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 92fa5783-41bb-471d-9910-bcdf2df32395)
+    (property "Sheetname" "MCU" (at 86.36 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 86.36 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d" (page "2"))
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 127 85.09) (size 33.02 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c0f6fbb3-0a35-47c4-89dc-58d814b50d10)
+    (property "Sheetname" "Mezzanine_Stecker" (at 127 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Mezzanine_Stecker.kicad_sch" (at 127 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d" (page "5"))
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 166.37 48.26) (size 33.02 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d8f4b89b-284e-4ad3-b860-96cc7fc0bb98)
+    (property "Sheetname" "Anschlüsse" (at 166.37 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Anschlüsse.kicad_sch" (at 166.37 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AHRS"
+        (path "/11d7968d-bd3e-4ebd-a310-b8845bb2e79d" (page "4"))
+      )
+      (project "MCU_Board_V2"
+        (path "/96c8bd85-653e-4164-8e77-7550b1d5d045" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
